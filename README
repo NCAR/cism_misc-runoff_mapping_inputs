@@ -1,5 +1,11 @@
 This repository contains inputs used to create runoff mapping files from
 glc to ocn.
 
+Suggested use: copy (or sym link) the relevant files to the
+cime/tools/mapping/gen_mapping_files/runoff_to_ocn directory, then run
+the desired make_mapping_files_* script(s) from there. (I think the
+mapping tools have some assumptions that you're running the commands
+from that directory.)
+
 See also
 https://github.com/CESM-Development/cism/wiki/Bringing-a-new-CISM-grid-into-CESM
