@@ -1,7 +1,7 @@
 &input_nml
    gridtype     = 'scrip'
    file_roff    = '/glade/p/cesmdata/cseg/inputdata/glc/cism/griddata/SCRIPgrid_greenland_4km_epsg3413_c170414.nc'
-   file_ocn     = "/glade/p/cesm/cseg/mapping/grids/gx1v6_090205.nc"
+   file_ocn     = '/glade/p/cesm/cseg/mapping/grids/gx1v6_090205.nc'
    file_ocn_coastal_mask = '/glade/p/cesm/cseg/mapping/grids/gx1v6_coast_170503.nc'
    file_nn      = 'map_gland4km_epsg3413_to_gx1v6_nn.nc '
    file_smooth  = 'map_gx1v6_coast_to_gx1v6_sm_for_gland4km.nc '
